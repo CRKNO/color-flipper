@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+main{
+    display: grid;
+    place-content: center;
+    gap: 1rem;
+
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    padding: .3rem 1rem;
+    border-radius: .3rem;
+    color: white;
+    background-color: rgb(17, 17, 17);
+}
+span{
+    color: #00d1b2;
+}
+button{
+    justify-self: center;
+
+    width: 10rem;
+    height: 2rem;
+    border:2px solid black;
+    border-radius: .5rem;
+
+    font-size: 1.1em;
+    font-family: inherit;
+    font-weight: bold;
+
+    background-color: rgba(0,0,0,0);
+}
