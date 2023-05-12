@@ -25,7 +25,7 @@ span{
     width: 10rem;
 
     text-align: center;
-    
+
     color: #00d1b2;
 }
 button{
@@ -41,4 +41,9 @@ button{
     font-weight: bold;
 
     background-color: rgba(0,0,0,0);
+}
+@media(max-width: 460px){
+    main{
+        text-align: center;
+    }
 }
