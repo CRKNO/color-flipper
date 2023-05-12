@@ -20,6 +20,12 @@ h1{
     background-color: rgb(17, 17, 17);
 }
 span{
+    display: inline-block;
+
+    width: 10rem;
+
+    text-align: center;
+    
     color: #00d1b2;
 }
 button{
